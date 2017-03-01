@@ -1,0 +1,155 @@
+body {
+	margin: 0px;
+	background-color: #dedede;
+	;
+	font-family: "微软雅黑";
+}
+
+#header {
+	margin: 0px;
+	height: 120px;
+	background-color: #333;
+}
+
+#logo {
+	padding: 15px 5px;
+}
+
+nav ul {
+	float: right;
+	margin-top: -70px;
+}
+
+nav ul li {
+	display: inline;
+	list-style-type: none;
+	margin-right: 25px;
+}
+
+nav a:link,nav a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+nav li.selected a {
+	color: grey;
+}
+
+article,#picList,#aside {
+	background-color: white;
+	margin: 20px;
+	padding: 40px 20px;
+	border: white thin outset;
+}
+
+#aside {
+	width: 500px;
+	float: right;
+}
+
+#table {
+	display: table;
+	margin: auto;
+}
+
+form textarea {
+	width: 280px;
+	height: 120px;
+	font-family: "微软雅黑";
+	font-size: 18px;
+}
+
+div.tableRow {
+	display: table-row;
+}
+
+div.tableRow p {
+	display: table-cell;
+	vertical-align: top;
+	padding: 6px;
+}
+
+div.tableRow p:first-child {		/*选择div.tableRow的第一个孩子<p>元素*/
+	text-align: right;
+}
+
+div.tableRow p.instruction {
+	color: darkgray;
+	padding-bottom: 25px;
+}
+
+#city {
+	font-family: "微软雅黑";
+}
+
+.submit {
+	width: 100%;
+	height: 40px;
+	background-color: #3555d0;
+	border-radius: 10px;
+	color: white;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#main {
+	margin-right: 560px;
+}
+
+article h3,h3+p {					/*兄弟选择器——选择紧挨<h3>元素的<p>元素*/
+	color: grey;
+}
+
+.indent {
+	text-indent: 2em;
+}
+
+#article2 ul {
+	list-style-type: none;
+}
+
+#picList .picture {
+	border: grey 1px solid;
+	display: inline-block;			/*图片排列*/
+	padding: 20px;
+	margin-right: 20px;
+	margin-bottom: 25px;
+}
+
+#article3 table {
+	width: 100%;					/*使表格扩展至全屏*/
+	margin: auto;					/*使表格水平居中*/
+	border-collapse: collapse;
+	border: #dedede thin solid;		/*只会改变表格外边框*/
+}
+
+#article3 table tr {
+	border: #dedede thin solid;
+}
+
+#article3 table th,#article3 table td {				/*在<tr>元素下无效*/
+	padding: 3px;
+}
+
+#article3 table th {
+	background-color: black;
+	color: white;
+	text-align: left;
+}
+
+#article3 table tr:nth-child(6) {					/*改变表格第六行背景色*/
+	background-color: #dedede;
+	font-weight: bold;
+}
+
+footer {
+	height: 150px;
+	background-color: #333;
+}
+
+footer p {
+	padding-top: 20px;
+	text-align: center;
+	color: white;
+}

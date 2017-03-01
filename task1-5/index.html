@@ -1,0 +1,246 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>task1-5</title>
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div id="header">
+			<img id="logo" src="img/logo.JPG">
+			<nav>
+				<ul>
+					<li><a href="">导航链接一</a></li>
+					<li><a href="">导航链接二</a></li>
+					<li><a href="">导航链接三</a></li>
+					<li class="selected"><a href="">导航链接四</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="aside">
+			<h2>侧栏标题</h2>
+			<h3>侧栏注册窗口标题</h3>
+			<form action="" method="post">
+				<div id="table">
+					<div class="tableRow">
+						<p><lable for="email">请输入邮箱地址：</lable></p>
+						<p><input type="text" name="email" id="email"></p>
+					</div>
+					
+					<div class="tableRow">
+						<p></p>
+						<p class="instruction">邮箱地址请按要求输入</p>
+					</div>
+						
+					<div class="tableRow">
+						<p><lable for="password">请输入密码：</lable></p>
+						<p><input type="password" name="password" id="password"></p>
+					</div>
+					
+					<div class="tableRow">
+						<p><lable for="confirmPassword">请重复输入密码：</lable></p>
+						<p><input type="password" name="password id="confirmPassword"></p>
+					</div>
+					
+					<div class="tableRow">
+						<p></p>
+						<p class="instruction">密码为6-16位英文数字</p>
+					</div>
+					
+					<div class="tableRow">
+						<p>性别：</p>
+						<p>
+							<input type="radio" name="sex" value="男" id="male" checked>
+							<lable for="male">男</lable>
+							<input type="radio" name="sex" value="女" id="famale">
+							<lable for="famale">女</lable>
+						</p>
+					</div>
+				
+					<div class="tableRow">
+						<p><lable for="city">城市：</lable></p>
+						<p>
+							<select name="city" id="city">
+								<option value="北京">北京</option>
+								<option value="西安">西安</option>
+								<option value="上海">上海</option>
+							</select>
+						</p>
+					</div>
+					
+					<div class="tableRow">
+						<p>爱好：</p>
+						<p>
+							<input type="checkbox" name="sports" value="运动" id="sports">
+							<lable for="sports">运动</lable>
+							<input type="checkbox" name="art" value="艺术" id="art">
+							<lable for="art">艺术</lable>
+							<input type="checkbox" name="science" value="科学" id="science">
+							<lable for="science">科学</lable>
+						</p>
+					</div>	
+					
+					<div class="tableRow">
+						<p><lable for "introduce">个人描述：</lable></p>
+						<p><textarea name="introduce" id="introduce">请输入您的自我描述</textarea></p>
+					</div>
+				</div>
+				
+				<input type="submit" colspan="2" class="submit" value="确认提交">
+			</form>	
+		</div>
+		<div id="main">
+			
+		<article id="article1">
+			<h2>文章一的一级标题</h2>
+			<h3>二级标题</h3>
+			<p>张三 2016年1月1日</p>
+			<p class="indent">
+				这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+				这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+				这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。换行了<br> 
+				这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+				这是一个很长的段落。换行了<br> 
+				这是一个很长的段落，这是一个很长的段落，<a href="http://ife.baidu.com" title="转到“百度前端技术学院”页面">这是一个链接</a>
+				这是一个很长的段落，这是一个很长的段落，<strong>这句话加粗了</strong>这是一个很长的段落，这是一个很长的段落，
+				这是一个很长的段落。
+			</p>
+			<img src="img/girl.jpg" width=256 height=192 alt="A picture of a beautiful girl.">
+			<p class="indent">
+				这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+				这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+				这是一个很长的段落。换行了<br> 
+				这是一个很长的段落，这是一个很长的段落，<strong>这句话加粗了</strong>，<em>这句做对比</em>，
+				这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+				这是一个很长的段落，这是一个很长的段落。换行了<br> 
+				这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，<a href="http:/ife.baidu.com" target="_blank" "转到"“百度前端技术学院”页面>这是一个新窗口链接</a>
+				这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。
+			</p>
+		</article>
+		
+		<article id="article2">
+			<h2>文章二的一级标题</h2>
+			<h3>二级标题</h3>
+			<p>李四 2016年2月2日</p>
+			<p class="indent">
+				这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+				这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+				这是一个很长的段落。换行了<br> 
+				这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+				这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+				这是一个很长的段落。换行了<br> 
+				这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，
+				这是一个很长的段落，<a href="http://ife.baidu.com" title="转到“百度前端技术学院”页面">这是一个链接</a>，
+				这是一个很长的段落，这是一个很长的段落，这是一个很长的段落，这是一个很长的段落。
+			</p>
+			<img src="img/girl.jpg" width=256 height=192 alt="A picture of a beautiful girl.">
+			<ul>
+				<li>列表项目一</li>
+				<li>列表项目二</li>
+				<li>列表项目三</li>
+			</ul>
+		</article>
+		
+		<div id="picList">
+			<h2>图片</h2>
+			
+			<div class="picture">
+			<p>好看的图片</p>
+				<img src="img/girl.jpg" width=256 height=192 alt="A picture of a beautiful girl."></p>
+			</div>
+			
+			<div class="picture">
+			<p>好看的图片</p>
+				<img src="img/girl.jpg" width=256 height=192 alt="A picture of a beautiful girl."></p>
+			</div>
+			
+			<div class="picture">
+			<p>好看的图片</p>
+				<img src="img/girl.jpg" width=256 height=192 alt="A picture of a beautiful girl."></p>
+			</div>
+			
+			<div class="picture">
+			<p>好看的图片</p>
+				<img src="img/girl.jpg" width=256 height=192 alt="A picture of a beautiful girl."></p>
+			</div>
+			
+			<div class="picture">
+			<p>好看的图片</p>
+				<img src="img/girl.jpg" width=256 height=192 alt="A picture of a beautiful girl."></p>
+			</div>
+			
+			<div class="picture">
+			<p>好看的图片</p>
+				<img src="img/girl.jpg" width=256 height=192 alt="A picture of a beautiful girl."></p>
+			</div>
+			
+			<div class="picture">
+			<p>好看的图片</p>
+				<img src="img/girl.jpg" width=256 height=192 alt="A picture of a beautiful girl."></p>
+			</div>
+			
+			<div class="picture">
+			<p>好看的图片</p>
+				<img src="img/girl.jpg" width=256 height=192 alt="A picture of a beautiful girl."></p>
+			</div>
+		</div>
+		
+		<article id="article3">
+			<h2>文章三的一级标题</h2>
+			<h3>二级标题</h3>
+			<p>狗蛋儿 2016年3月3日</p>
+			<ol>
+				<li>排名1</li>
+				<li>排名2</li>
+				<li>排名3</li>
+			</ol>
+			<table border="1">
+				<caption>表格标题</caption>
+				<tr>
+					<th>表头</th>
+					<th>表头</th>
+					<th>表头</th>
+				</tr>
+				<tr>
+					<td>表格内容单元格</td>
+					<td>表格内容单元格</td>
+					<td>
+						<a href="">操作</a>
+					</td>
+				</tr>
+				<tr>
+					<td>表格内容单元格</td>
+					<td>表格内容单元格</td>
+					<td>
+						<a href="">操作</a>
+					</td>
+				</tr>
+				<tr>
+					<td>表格内容单元格</td>
+					<td>表格内容单元格</td>
+					<td>
+						<a href="">操作</a>
+					</td>
+				</tr>
+				<tr>
+					<td>表格内容单元格</td>
+					<td>表格内容单元格</td>
+					<td>
+						<a href="">操作</a>
+					</td>
+				</tr>
+				<tr>
+					<td>总计</td>
+					<td colspan="2">1000</td>
+				</tr>
+		</table>
+		</article>
+		
+		</div>
+		<footer>
+			<p>版权所有©</p>
+		</footer>
+	</body>
+</html>
